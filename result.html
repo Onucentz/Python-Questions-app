@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Result</title>
+
+    <style>
+
+        body{
+            font-family:Arial;
+            background:#f4f4f4;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+        }
+
+        .box{
+            background:white;
+            padding:40px;
+            width:350px;
+            text-align:center;
+            border-radius:10px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+    <h1>
+        Quiz Completed
+    </h1>
+
+    <h2>
+        Score: {{ score }}/{{ total }}
+    </h2>
+
+    <h2>
+        Percentage: {{ percentage }}%
+    </h2>
+
+</div>
+
+</body>
+</html>

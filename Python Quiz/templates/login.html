@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Login</title>
+
+    <style>
+
+        body{
+            font-family: Arial;
+            background:#f4f4f4;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+        }
+
+        .box{
+            background:white;
+            padding:40px;
+            width:350px;
+            border-radius:10px;
+        }
+
+        input{
+            width:100%;
+            padding:10px;
+            margin-top:15px;
+        }
+
+        button{
+            width:100%;
+            padding:12px;
+            margin-top:20px;
+            background:blue;
+            color:white;
+            border:none;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+    <h2>Student Login</h2>
+
+    <form method="POST">
+
+        <input type="text" name="fname" placeholder="First Name" required>
+
+        <input type="text" name="sname" placeholder="Surname" required>
+
+        <input type="text" name="sclass" placeholder="Class" required>
+
+        <button type="submit">
+            Start Quiz
+        </button>
+
+    </form>
+
+    <br>
+
+    <a href="/admin/login">
+        Admin Login
+    </a>
+
+</div>
+
+</body>
+</html>

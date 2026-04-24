@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Quiz</title>
+
+    <style>
+
+        body{
+            font-family:Arial;
+            background:#f4f4f4;
+        }
+
+        .container{
+            width:70%;
+            margin:auto;
+            margin-top:50px;
+            background:white;
+            padding:30px;
+            border-radius:10px;
+        }
+
+        button{
+            padding:12px 20px;
+            background:blue;
+            color:white;
+            border:none;
+            margin-top:20px;
+        }
+
+        #timer{
+            font-size:20px;
+            color:red;
+            margin-bottom:20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h3>
+        Question {{ index + 1 }} of {{ total }}
+    </h3>
+
+    <div id="timer">
+        Time Left: {{ remaining }}s
+    </div>
+
+    <form method="POST">
+
+        <h2>
+            {{ q.question }}
+        </h2>
+
+        {% for key, value in q.options.items() %}
+
+            <p>
+                <input type="radio"
+                       name="answer"
+                       value="{{ key }}"
+                       required>
+
+                {{ key }}) {{ value }}
+            </p>
+
+        {% endfor %}
+
+        <button type="submit">
+            Submit Answer
+        </button>
+
+    </form>
+
+</div>
+
+<script>
+
+
+<h2 id="timer"></h2>
+
+let timeLeft = 1500;
+
+function updateTimer(){
+
+    let hours = Math.floor(timeLeft / 3600);
+
+    let minutes = Math.floor((timeLeft % 3600) / 60);
+
+    let seconds = timeLeft % 60;
+
+    hours = String(hours).padStart(2,'0');
+    minutes = String(minutes).padStart(2,'0');
+    seconds = String(seconds).padStart(2,'0');
+
+    document.getElementById("timer").innerHTML =
+        hours + ":" + minutes + ":" + seconds;
+
+    if(timeLeft <= 0){
+
+        window.location.href = "/result";
+
+    }
+
+    timeLeft--;
+
+}
+
+updateTimer();
+
+setInterval(updateTimer, 1000);
+
+</script>
+
+</script>
+
+</body>
+</html>
+
+<video id="webcam"
+       autoplay
+       playsinline
+       width="250"
+       style="border:2px solid black; margin-bottom:20px;">
+</video>
