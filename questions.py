@@ -2,306 +2,322 @@ quiz_data = [
 
     {
         "number": 1,
-        "question": "What is the correct file extension for Python files?",
-        "options": {"A": ".py", "B": ".python", "C": ".pt", "D": ".pyt"},
-        "answer": "A"
+        "question": "What keyword is used to display output in Python?",
+        "options": {"A": "show()", "B": "print()", "C": "output()", "D": "display()"},
+        "answer": "B"
     },
+
     {
         "number": 2,
-        "question": "Which keyword is used to define a function in Python?",
-        "options": {"A": "func", "B": "define", "C": "def", "D": "function"},
+        "question": "Which symbol is used for comments in Python?",
+        "options": {"A": "//", "B": "<!-- -->", "C": "#", "D": "**"},
         "answer": "C"
     },
+
     {
         "number": 3,
-        "question": "Which of these is a correct variable name?",
-        "options": {"A": "2name", "B": "name_2", "C": "name-2", "D": "name 2"},
+        "question": "What function is used to collect user input?",
+        "options": {"A": "get()", "B": "input()", "C": "read()", "D": "scan()"},
         "answer": "B"
     },
+
     {
         "number": 4,
-        "question": "What is the output of print(2 ** 3)?",
-        "options": {"A": "6", "B": "8", "C": "9", "D": "5"},
-        "answer": "B"
+        "question": "Which data type is used for whole numbers?",
+        "options": {"A": "float", "B": "string", "C": "int", "D": "bool"},
+        "answer": "C"
     },
+
     {
         "number": 5,
-        "question": "Which data type is used for True/False?",
-        "options": {"A": "int", "B": "str", "C": "bool", "D": "float"},
-        "answer": "C"
+        "question": "Which operator is used for addition?",
+        "options": {"A": "*", "B": "+", "C": "/", "D": "-"},
+        "answer": "B"
     },
+
     {
         "number": 6,
-        "question": "Which symbol is used for comments in Python?",
-        "options": {"A": "//", "B": "#", "C": "/* */", "D": "--"},
-        "answer": "B"
+        "question": "Which bracket is used for lists?",
+        "options": {"A": "()", "B": "{}", "C": "[]", "D": "<>"},
+        "answer": "C"
     },
+
     {
         "number": 7,
-        "question": "What does len() function do?",
-        "options": {"A": "Adds numbers", "B": "Finds length", "C": "Deletes items", "D": "Prints values"},
-        "answer": "B"
+        "question": "Which keyword is used for conditions?",
+        "options": {"A": "if", "B": "for", "C": "while", "D": "def"},
+        "answer": "A"
     },
+
     {
         "number": 8,
-        "question": "Which keyword is used for loops?",
-        "options": {"A": "loop", "B": "iterate", "C": "for", "D": "repeat"},
-        "answer": "C"
-    },
-    {
-        "number": 9,
-        "question": "What is output of print(type(10))?",
-        "options": {"A": "int", "B": "<class 'int'>", "C": "number", "D": "integer"},
+        "question": "Which loop repeats a fixed number of times?",
+        "options": {"A": "while", "B": "for", "C": "if", "D": "else"},
         "answer": "B"
     },
+
+    {
+        "number": 9,
+        "question": "Which keyword is used to define a function?",
+        "options": {"A": "class", "B": "function", "C": "define", "D": "def"},
+        "answer": "D"
+    },
+
     {
         "number": 10,
-        "question": "Which of these is a list?",
-        "options": {"A": "(1,2,3)", "B": "{1,2,3}", "C": "[1,2,3]", "D": "1,2,3"},
-        "answer": "C"
+        "question": "Which function converts text to integer?",
+        "options": {"A": "str()", "B": "int()", "C": "float()", "D": "bool()"},
+        "answer": "B"
     },
 
     {
         "number": 11,
-        "question": "Which keyword is used to create a class?",
-        "options": {"A": "object", "B": "class", "C": "struct", "D": "define"},
-        "answer": "B"
-    },
-    {
-        "number": 12,
-        "question": "Which function is used to display output?",
-        "options": {"A": "show()", "B": "echo()", "C": "print()", "D": "display()"},
-        "answer": "C"
-    },
-    {
-        "number": 13,
-        "question": "What is correct assignment operator?",
-        "options": {"A": "x == 5", "B": "x := 5", "C": "x = 5", "D": "x => 5"},
-        "answer": "C"
-    },
-    {
-        "number": 14,
-        "question": "Which operator is used for division?",
-        "options": {"A": "//", "B": "/", "C": "%", "D": "*"},
-        "answer": "B"
-    },
-    {
-        "number": 15,
-        "question": "What does input() do?",
-        "options": {"A": "Displays output", "B": "Takes user input", "C": "Deletes input", "D": "Stops program"},
-        "answer": "B"
-    },
-    {
-        "number": 16,
-        "question": "Which is immutable?",
-        "options": {"A": "list", "B": "dict", "C": "set", "D": "tuple"},
-        "answer": "D"
-    },
-    {
-        "number": 17,
-        "question": "What is correct boolean value?",
-        "options": {"A": "true", "B": "TRUE", "C": "True", "D": "1"},
-        "answer": "C"
-    },
-    {
-        "number": 18,
-        "question": "Which keyword is used to handle exceptions?",
-        "options": {"A": "catch", "B": "try", "C": "error", "D": "excepted"},
-        "answer": "B"
-    },
-    {
-        "number": 19,
-        "question": "Which is a dictionary?",
-        "options": {"A": "[1:2]", "B": "(1:2)", "C": "{1:2}", "D": "<1:2>"},
-        "answer": "C"
-    },
-    {
-        "number": 20,
-        "question": "What does append() do?",
-        "options": {"A": "Deletes item", "B": "Adds item", "C": "Sorts list", "D": "Reverses list"},
+        "question": "What is the correct file extension for Python files?",
+        "options": {"A": ".java", "B": ".py", "C": ".html", "D": ".exe"},
         "answer": "B"
     },
 
     {
-        "number": 21,
-        "question": "Which keyword is used for condition?",
-        "options": {"A": "if", "B": "for", "C": "while", "D": "switch"},
+        "number": 12,
+        "question": "Which function gives the length of a list?",
+        "options": {"A": "size()", "B": "count()", "C": "len()", "D": "length()"},
+        "answer": "C"
+    },
+
+    {
+        "number": 13,
+        "question": "Which keyword stops a loop?",
+        "options": {"A": "stop", "B": "break", "C": "continue", "D": "exit"},
+        "answer": "B"
+    },
+
+    {
+        "number": 14,
+        "question": "Which keyword skips one loop iteration?",
+        "options": {"A": "pass", "B": "break", "C": "skip", "D": "continue"},
+        "answer": "D"
+    },
+
+    {
+        "number": 15,
+        "question": "Which module is used for random numbers?",
+        "options": {"A": "math", "B": "random", "C": "numbers", "D": "os"},
+        "answer": "B"
+    },
+
+    {
+        "number": 16,
+        "question": "Which operator checks equality?",
+        "options": {"A": "=", "B": "!=", "C": "==", "D": ">="},
+        "answer": "C"
+    },
+
+    {
+        "number": 17,
+        "question": "Which keyword handles errors?",
+        "options": {"A": "except", "B": "error", "C": "try", "D": "catch"},
+        "answer": "C"
+    },
+
+    {
+        "number": 18,
+        "question": "Which keyword catches errors?",
+        "options": {"A": "try", "B": "except", "C": "catch", "D": "error"},
+        "answer": "B"
+    },
+
+    {
+        "number": 19,
+        "question": "Which data type stores True or False?",
+        "options": {"A": "bool", "B": "int", "C": "float", "D": "str"},
         "answer": "A"
     },
+
+    {
+        "number": 20,
+        "question": "Which method changes text to uppercase?",
+        "options": {"A": "upper()", "B": "lower()", "C": "title()", "D": "caps()"},
+        "answer": "A"
+    },
+
+    {
+        "number": 21,
+        "question": "Which method changes text to lowercase?",
+        "options": {"A": "lower()", "B": "upper()", "C": "case()", "D": "small()"},
+        "answer": "A"
+    },
+
     {
         "number": 22,
-        "question": "Which is used to create a loop?",
-        "options": {"A": "if", "B": "def", "C": "for", "D": "class"},
-        "answer": "C"
+        "question": "Which symbol is used for multiplication?",
+        "options": {"A": "x", "B": "*", "C": "#", "D": "%"},
+        "answer": "B"
     },
+
     {
         "number": 23,
-        "question": "What is output of 5//2?",
-        "options": {"A": "2.5", "B": "2", "C": "3", "D": "2.0"},
-        "answer": "B"
+        "question": "Which symbol is used for division?",
+        "options": {"A": "/", "B": "//", "C": "%", "D": "*"},
+        "answer": "A"
     },
+
     {
         "number": 24,
-        "question": "Which function converts to integer?",
-        "options": {"A": "str()", "B": "int()", "C": "float()", "D": "bool()"},
-        "answer": "B"
-    },
-    {
-        "number": 25,
-        "question": "Which is correct string?",
-        "options": {"A": "Hello", "B": "'Hello'", "C": "Hello()", "D": "{Hello}"},
-        "answer": "B"
-    },
-    {
-        "number": 26,
-        "question": "Which is correct indentation in Python?",
-        "options": {"A": "tabs only", "B": "spaces only", "C": "both allowed", "D": "none"},
-        "answer": "B"
-    },
-    {
-        "number": 27,
-        "question": "What is used to import modules?",
-        "options": {"A": "include", "B": "using", "C": "import", "D": "require"},
+        "question": "Which function opens a file?",
+        "options": {"A": "read()", "B": "file()", "C": "open()", "D": "openfile()"},
         "answer": "C"
     },
+
+    {
+        "number": 25,
+        "question": "Which mode reads a file?",
+        "options": {"A": "w", "B": "r", "C": "a", "D": "x"},
+        "answer": "B"
+    },
+
+    {
+        "number": 26,
+        "question": "Which mode writes into a file?",
+        "options": {"A": "r", "B": "x", "C": "a", "D": "w"},
+        "answer": "D"
+    },
+
+    {
+        "number": 27,
+        "question": "What does len('Python') return?",
+        "options": {"A": "5", "B": "6", "C": "7", "D": "8"},
+        "answer": "B"
+    },
+
     {
         "number": 28,
-        "question": "Which method removes item from list?",
-        "options": {"A": "delete()", "B": "remove()", "C": "popitem()", "D": "drop()"},
+        "question": "Which keyword creates a class?",
+        "options": {"A": "object", "B": "class", "C": "def", "D": "struct"},
         "answer": "B"
     },
+
     {
         "number": 29,
-        "question": "What is output of 3+2*2?",
-        "options": {"A": "10", "B": "7", "C": "8", "D": "9"},
-        "answer": "B"
+        "question": "Which function shows variable type?",
+        "options": {"A": "type()", "B": "typeof()", "C": "datatype()", "D": "var()"},
+        "answer": "A"
     },
+
     {
         "number": 30,
-        "question": "Which is Python package manager?",
-        "options": {"A": "npm", "B": "pip", "C": "apt", "D": "brew"},
+        "question": "Which logical operator means AND?",
+        "options": {"A": "or", "B": "and", "C": "not", "D": "xor"},
         "answer": "B"
     },
 
     {
         "number": 31,
-        "question": "Which loop checks condition first?",
-        "options": {"A": "for", "B": "while", "C": "do-while", "D": "repeat"},
-        "answer": "B"
+        "question": "Which logical operator means OR?",
+        "options": {"A": "or", "B": "and", "C": "not", "D": "nor"},
+        "answer": "A"
     },
+
     {
         "number": 32,
-        "question": "What does break do?",
-        "options": {"A": "Stops loop", "B": "Skips iteration", "C": "Starts loop", "D": "Deletes loop"},
-        "answer": "A"
+        "question": "Which keyword imports modules?",
+        "options": {"A": "include", "B": "using", "C": "import", "D": "load"},
+        "answer": "C"
     },
+
     {
         "number": 33,
-        "question": "What is correct set syntax?",
-        "options": {"A": "[1,2]", "B": "(1,2)", "C": "{1,2}", "D": "<1,2>"},
+        "question": "Which function rounds numbers?",
+        "options": {"A": "ceil()", "B": "floor()", "C": "round()", "D": "approx()"},
         "answer": "C"
     },
+
     {
         "number": 34,
-        "question": "Which method converts string to lowercase?",
-        "options": {"A": "lower()", "B": "down()", "C": "small()", "D": "case()"},
-        "answer": "A"
-    },
-    {
-        "number": 35,
-        "question": "What is used to start a block of code?",
-        "options": {"A": "{}", "B": "()", "C": "indentation", "D": "[]"},
-        "answer": "C"
-    },
-    {
-        "number": 36,
-        "question": "Which keyword stops loop completely?",
-        "options": {"A": "stop", "B": "break", "C": "exit", "D": "end"},
-        "answer": "B"
-    },
-    {
-        "number": 37,
-        "question": "What is output of print('5' + '5')?",
-        "options": {"A": "10", "B": "55", "C": "Error", "D": "5"},
-        "answer": "B"
-    },
-    {
-        "number": 38,
-        "question": "Which data type stores key-value pairs?",
-        "options": {"A": "list", "B": "tuple", "C": "dict", "D": "set"},
-        "answer": "C"
-    },
-    {
-        "number": 39,
-        "question": "Which keyword is used to define loop condition?",
-        "options": {"A": "if", "B": "while", "C": "for", "D": "loop"},
-        "answer": "B"
-    },
-    {
-        "number": 40,
-        "question": "What is correct way to start function?",
-        "options": {"A": "function", "B": "def", "C": "func", "D": "define"},
+        "question": "Which function gives the largest value?",
+        "options": {"A": "min()", "B": "max()", "C": "top()", "D": "high()"},
         "answer": "B"
     },
 
     {
-        "number": 41,
-        "question": "What is output of print(10 % 3)?",
-        "options": {"A": "3", "B": "1", "C": "2", "D": "0"},
-        "answer": "B"
+        "number": 35,
+        "question": "Which function gives the smallest value?",
+        "options": {"A": "min()", "B": "max()", "C": "low()", "D": "less()"},
+        "answer": "A"
     },
-    {
-        "number": 42,
-        "question": "Which function finds maximum value?",
-        "options": {"A": "min()", "B": "max()", "C": "top()", "D": "high()"},
-        "answer": "B"
+     # SUBJECTIVE QUESTIONS
+
+    36: {
+        "question": "Write a Python statement to create a variable called name with value 'John'.",
+        "answer": "name = 'John'"
     },
-    {
-        "number": 43,
-        "question": "Which keyword is used for function return?",
-        "options": {"A": "give", "B": "return", "C": "output", "D": "send"},
-        "answer": "B"
+
+    37: {
+        "question": "Write a Python program to print 'Hello World'.",
+        "answer": "print('Hello World')"
     },
-    {
-        "number": 44,
-        "question": "Which structure stores multiple items?",
-        "options": {"A": "variable", "B": "constant", "C": "array/list", "D": "function"},
-        "answer": "C"
+
+    38: {
+        "question": "Write a Python statement to add two numbers.",
+        "answer": "sum = a + b"
     },
-    {
-        "number": 45,
-        "question": "Which method adds item to list?",
-        "options": {"A": "add()", "B": "append()", "C": "insert()", "D": "push()"},
-        "answer": "B"
+
+    39: {
+        "question": "Write a Python loop that prints numbers from 1 to 5.",
+        "answer": "for i in range(1, 6): print(i)"
     },
-    {
-        "number": 46,
-        "question": "What is Python primarily used for?",
-        "options": {"A": "Web only", "B": "Machine language", "C": "General purpose", "D": "Hardware only"},
-        "answer": "C"
+
+    40: {
+        "question": "Write a Python condition to check if age is greater than 18.",
+        "answer": "if age > 18:"
     },
-    {
-        "number": 47,
-        "question": "Which symbol means not equal?",
-        "options": {"A": "=", "B": "!=", "C": "==", "D": "<>"},
-        "answer": "B"
+
+    41: {
+        "question": "Write a Python list containing 3 fruits.",
+        "answer": "fruits = ['apple', 'banana', 'orange']"
     },
-    {
-        "number": 48,
-        "question": "Which loop is best for known iterations?",
-        "options": {"A": "while", "B": "for", "C": "if", "D": "repeat"},
-        "answer": "B"
+
+    42: {
+        "question": "Write a Python tuple containing 3 numbers.",
+        "answer": "numbers = (1, 2, 3)"
     },
-    {
-        "number": 49,
-        "question": "What does continue do?",
-        "options": {"A": "Stops loop", "B": "Skips iteration", "C": "Ends program", "D": "Restarts program"},
-        "answer": "B"
+
+    43: {
+        "question": "Write a Python dictionary with name and age.",
+        "answer": "person = {'name':'John', 'age':20}"
     },
-    {
-        "number": 50,
-        "question": "Which keyword defines a module import?",
-        "options": {"A": "include", "B": "import", "C": "using", "D": "load"},
-        "answer": "B"
+
+    44: {
+        "question": "Write a function named greet.",
+        "answer": "def greet():"
+    },
+
+    45: {
+        "question": "Write a Python statement to import the math module.",
+        "answer": "import math"
+    },
+
+    46: {
+        "question": "Write a Python statement to convert '25' to integer.",
+        "answer": "int('25')"
+    },
+
+    47: {
+        "question": "Write a Python statement to convert 10 to string.",
+        "answer": "str(10)"
+    },
+
+    48: {
+        "question": "Write a Python statement to open a file named test.txt for reading.",
+        "answer": "open('test.txt', 'r')"
+    },
+
+    49: {
+        "question": "Write a Python statement to create a comment.",
+        "answer": "# This is a comment"
+    },
+
+    50: {
+        "question": "Write a Python statement to print numbers from 1 to 10 using for loop.",
+        "answer": "for i in range(1,11)"
     }
-]
+    ]
