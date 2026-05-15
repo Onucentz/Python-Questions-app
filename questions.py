@@ -244,80 +244,183 @@ quiz_data = [
         "options": {"A": "min()", "B": "max()", "C": "low()", "D": "less()"},
         "answer": "A"
     },
-     # SUBJECTIVE QUESTIONS
-
-    36: {
-        "question": "Write a Python statement to create a variable called name with value 'John'.",
-        "answer": "name = 'John'"
+        {
+        "number": 36,
+        "question": "Which statement correctly creates a variable called name with value 'John'?",
+        "options": {
+            "A": "name == 'John'",
+            "B": "name = 'John'",
+            "C": "'John' = name",
+            "D": "set name = 'John'"
+        },
+        "answer": "B"
     },
 
-    37: {
-        "question": "Write a Python program to print 'Hello World'.",
-        "answer": "print('Hello World')"
+    {
+        "number": 37,
+        "question": "Which code prints 'Hello World' in Python?",
+        "options": {
+            "A": "echo('Hello World')",
+            "B": "display('Hello World')",
+            "C": "print('Hello World')",
+            "D": "show('Hello World')"
+        },
+        "answer": "C"
     },
 
-    38: {
-        "question": "Write a Python statement to add two numbers.",
-        "answer": "sum = a + b"
+    {
+        "number": 38,
+        "question": "Which statement correctly adds two numbers a and b?",
+        "options": {
+            "A": "sum = a + b",
+            "B": "sum == a + b",
+            "C": "a + b = sum",
+            "D": "add(a,b)"
+        },
+        "answer": "A"
     },
 
-    39: {
-        "question": "Write a Python loop that prints numbers from 1 to 5.",
-        "answer": "for i in range(1, 6): print(i)"
+    {
+        "number": 39,
+        "question": "Which loop prints numbers from 1 to 5?",
+        "options": {
+            "A": "for i in range(1,6): print(i)",
+            "B": "for i in 5: print(i)",
+            "C": "loop i from 1 to 5",
+            "D": "while print(5)"
+        },
+        "answer": "A"
     },
 
-    40: {
-        "question": "Write a Python condition to check if age is greater than 18.",
-        "answer": "if age > 18:"
+    {
+        "number": 40,
+        "question": "Which condition checks if age is greater than 18?",
+        "options": {
+            "A": "if age < 18:",
+            "B": "if age = 18:",
+            "C": "if age > 18:",
+            "D": "if age != 18:"
+        },
+        "answer": "C"
     },
 
-    41: {
-        "question": "Write a Python list containing 3 fruits.",
-        "answer": "fruits = ['apple', 'banana', 'orange']"
+    {
+        "number": 41,
+        "question": "Which option correctly creates a list of fruits?",
+        "options": {
+            "A": "fruits = ('apple', 'banana', 'orange')",
+            "B": "fruits = ['apple', 'banana', 'orange']",
+            "C": "fruits = {'apple', 'banana', 'orange'}",
+            "D": "fruits = <apple, banana, orange>"
+        },
+        "answer": "B"
     },
 
-    42: {
-        "question": "Write a Python tuple containing 3 numbers.",
-        "answer": "numbers = (1, 2, 3)"
+    {
+        "number": 42,
+        "question": "Which option correctly creates a tuple?",
+        "options": {
+            "A": "numbers = [1, 2, 3]",
+            "B": "numbers = {1, 2, 3}",
+            "C": "numbers = (1, 2, 3)",
+            "D": "numbers = <1, 2, 3>"
+        },
+        "answer": "C"
     },
 
-    43: {
-        "question": "Write a Python dictionary with name and age.",
-        "answer": "person = {'name':'John', 'age':20}"
+    {
+        "number": 43,
+        "question": "Which option correctly creates a dictionary?",
+        "options": {
+            "A": "person = ['name','John']",
+            "B": "person = ('name':'John')",
+            "C": "person = {'name':'John', 'age':20}",
+            "D": "person = <name='John'>"
+        },
+        "answer": "C"
     },
 
-    44: {
-        "question": "Write a function named greet.",
-        "answer": "def greet():"
+    {
+        "number": 44,
+        "question": "Which option correctly defines a function named greet?",
+        "options": {
+            "A": "function greet()",
+            "B": "def greet():",
+            "C": "create greet():",
+            "D": "greet def():"
+        },
+        "answer": "B"
     },
 
-    45: {
-        "question": "Write a Python statement to import the math module.",
-        "answer": "import math"
+    {
+        "number": 45,
+        "question": "Which statement imports the math module?",
+        "options": {
+            "A": "include math",
+            "B": "using math",
+            "C": "import math",
+            "D": "load math"
+        },
+        "answer": "C"
     },
 
-    46: {
-        "question": "Write a Python statement to convert '25' to integer.",
-        "answer": "int('25')"
+    {
+        "number": 46,
+        "question": "Which statement converts '25' to an integer?",
+        "options": {
+            "A": "str('25')",
+            "B": "float('25')",
+            "C": "int('25')",
+            "D": "bool('25')"
+        },
+        "answer": "C"
     },
 
-    47: {
-        "question": "Write a Python statement to convert 10 to string.",
-        "answer": "str(10)"
+    {
+        "number": 47,
+        "question": "Which statement converts 10 to a string?",
+        "options": {
+            "A": "str(10)",
+            "B": "int(10)",
+            "C": "float(10)",
+            "D": "bool(10)"
+        },
+        "answer": "A"
     },
 
-    48: {
-        "question": "Write a Python statement to open a file named test.txt for reading.",
-        "answer": "open('test.txt', 'r')"
+    {
+        "number": 48,
+        "question": "Which statement opens a file named test.txt for reading?",
+        "options": {
+            "A": "open('test.txt', 'w')",
+            "B": "open('test.txt', 'r')",
+            "C": "read('test.txt')",
+            "D": "file('test.txt')"
+        },
+        "answer": "B"
     },
 
-    49: {
-        "question": "Write a Python statement to create a comment.",
-        "answer": "# This is a comment"
+    {
+        "number": 49,
+        "question": "Which option is a correct Python comment?",
+        "options": {
+            "A": "// This is a comment",
+            "B": "<!-- This is a comment -->",
+            "C": "# This is a comment",
+            "D": "** This is a comment"
+        },
+        "answer": "C"
     },
 
-    50: {
-        "question": "Write a Python statement to print numbers from 1 to 10 using for loop.",
-        "answer": "for i in range(1,11)"
+    {
+        "number": 50,
+        "question": "Which code correctly prints numbers from 1 to 10 using a while loop?",
+        "options": {
+            "A": "i = 1\nwhile i <= 10:\n    print(i)\n    i += 1",
+            "B": "while 10 print(i)",
+            "C": "for i while 10",
+            "D": "loop i from 1 to 10"
+        },
+        "answer": "A"
     }
     ]
